@@ -80,7 +80,7 @@ main(int argc, char **argv1)
     int ch;
     int flags =
         TSK_FS_BLOCK_WALK_FLAG_UNALLOC |
-        TSK_FS_BLOCK_WALK_FLAG_META | TSK_FS_BLOCK_WALK_FLAG_CONT;
+        /*TSK_FS_BLOCK_WALK_FLAG_META | */TSK_FS_BLOCK_WALK_FLAG_CONT;
 
     char lclflags = TSK_FS_BLKLS_CAT, set_bounds = 1;
     TSK_TCHAR **argv;
